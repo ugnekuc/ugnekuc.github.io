@@ -1,0 +1,110 @@
+body{
+    background-color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    font-size: 1.5vw;
+}
+
+h1{
+    margin: 0px;
+    padding: 40px;
+    font-family: "Fredoka One", sans-serif;
+    width: 16%;
+    border-radius: 15%;
+    text-shadow: 
+    1px 1px 0px rgb(182, 60, 12),
+    -1px 1px 0px rgb(182, 60, 12),
+    1px -1px 0px rgb(182, 60, 12),
+    -1px -1px 0px rgb(182, 60, 12);
+}
+
+ul{
+    margin: 20px;
+    padding: 20px;
+}
+
+main{
+    margin: 20px;
+}
+
+body > header{
+    background-color: rgb(255, 214, 159);
+    color: darkred;
+    display: flex;
+    height: 12vp;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav-ul{
+    display: flex;
+}
+
+#nav-ul > li{
+    padding: 6px;
+    margin: 6px;
+}
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+/* can also make a class? on the html code refering to this and put it here instead */
+.navbutton{
+    color: rgb(189, 81, 81);
+    text-decoration: none;
+    padding: 12px;
+    border: 2px solid rgb(189, 81, 81);
+    border-radius: 7%;
+}
+
+body > main article{
+    width: 85%;
+    margin: auto;
+}
+
+#main-content{
+    display: flex;
+}
+
+#main-content > div{
+    width: 80%;
+}
+
+#main-content aside{
+    width: 20%;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+body > footer{
+    background-color: rgb(255, 247, 176);
+    display: flex;
+}
+
+img{
+    border-radius: 100%;
+}
+
+#footer-ul{
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li{
+    margin-left: 40px;
+}
+
+#footer-ul > div > li > a{
+    color: black;
+    text-decoration: none;
+}
